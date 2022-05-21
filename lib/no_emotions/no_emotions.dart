@@ -140,7 +140,7 @@ class _NoEmotionsState extends State<NoEmotions> {
                           ),
                           EmojiClick(
                             emojiPath: 'assets/icons/apple_juice.jpg',
-                            text: 'apple juice',
+                            text: 'fresh apple juice',
                             textEditingController: textFieldController,
                             isSpeak: isSpeak,
                           ),
@@ -194,7 +194,7 @@ class _NoEmotionsState extends State<NoEmotions> {
                         children: [
                           EmojiClick(
                             emojiPath: 'assets/icons/cheese_pizza.jpg',
-                            text: 'cheese pizza',
+                            text: 'pizza',
                             textEditingController: textFieldController,
                             isSpeak: isSpeak,
                           ),
