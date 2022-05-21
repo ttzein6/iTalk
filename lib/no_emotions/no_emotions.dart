@@ -45,7 +45,7 @@ class _NoEmotionsState extends State<NoEmotions> {
     return SafeArea(
         child: Scaffold(
       appBar: AppBar(
-        title: const Text('No Emotions'),
+        title: const Text('iTalk'),
         backgroundColor: Colors.green.shade200,
         leading: IconButton(
           onPressed: () {
@@ -265,8 +265,8 @@ class _NoEmotionsState extends State<NoEmotions> {
                         //mainAxisSize: MainAxisSize.max,
                         children: [
                           EmojiClick(
-                            emojiPath: 'assets/icons/hot.jpg',
-                            text: 'hot',
+                            emojiPath: 'assets/icons/i_am.PNG',
+                            text: 'i am',
                             textEditingController: textFieldController,
                             isSpeak: isSpeak,
                           ),
