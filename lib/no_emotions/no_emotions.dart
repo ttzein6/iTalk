@@ -98,13 +98,13 @@ class _NoEmotionsState extends State<NoEmotions> {
                           // setState(() {
                           //   isSpeak = false;
                           // });
-                          Navigator.pushAndRemoveUntil(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) =>
-                                    const NoEmotions()), // this mymainpage is your page to refresh
-                            (Route<dynamic> route) => false,
-                          );
+                          // Navigator.pushAndRemoveUntil(
+                          //   context,
+                          //   MaterialPageRoute(
+                          //       builder: (context) =>
+                          //           const NoEmotions()), // this mymainpage is your page to refresh
+                          //   (Route<dynamic> route) => false,
+                          // );
                         },
                         child: const Text("Speak"),
                       ),
@@ -121,8 +121,8 @@ class _NoEmotionsState extends State<NoEmotions> {
                         //mainAxisSize: MainAxisSize.max,
                         children: [
                           EmojiClick(
-                            emojiPath: 'assets/icons/afraid.jpg',
-                            text: 'afraid',
+                            emojiPath: 'assets/icons/my.png',
+                            text: 'my',
                             textEditingController: textFieldController,
                             isSpeak: isSpeak,
                           ),
@@ -130,7 +130,7 @@ class _NoEmotionsState extends State<NoEmotions> {
                             height: width * 0.1,
                           ),
                           EmojiClick(
-                            emojiPath: 'assets/icons/yes.jpg',
+                            emojiPath: 'assets/icons/yes.png',
                             text: 'yes',
                             textEditingController: textFieldController,
                             isSpeak: isSpeak,
@@ -139,8 +139,8 @@ class _NoEmotionsState extends State<NoEmotions> {
                             height: width * 0.1,
                           ),
                           EmojiClick(
-                            emojiPath: 'assets/icons/apple_juice.jpg',
-                            text: 'fresh apple juice',
+                            emojiPath: 'assets/icons/fill.png',
+                            text: 'fill',
                             textEditingController: textFieldController,
                             isSpeak: isSpeak,
                           ),
@@ -148,8 +148,8 @@ class _NoEmotionsState extends State<NoEmotions> {
                             height: width * 0.1,
                           ),
                           EmojiClick(
-                            emojiPath: 'assets/icons/awake.jpg',
-                            text: 'awake',
+                            emojiPath: 'assets/icons/electric_car.png',
+                            text: 'electric car',
                             textEditingController: textFieldController,
                             isSpeak: isSpeak,
                           ),
@@ -157,8 +157,8 @@ class _NoEmotionsState extends State<NoEmotions> {
                             height: width * 0.1,
                           ),
                           EmojiClick(
-                            emojiPath: 'assets/icons/bored.jpg',
-                            text: 'bored',
+                            emojiPath: 'assets/icons/litre.png',
+                            text: 'litre',
                             textEditingController: textFieldController,
                             isSpeak: isSpeak,
                           ),
@@ -166,8 +166,8 @@ class _NoEmotionsState extends State<NoEmotions> {
                             height: width * 0.1,
                           ),
                           EmojiClick(
-                            emojiPath: 'assets/icons/thank_you.jpg',
-                            text: 'thank you',
+                            emojiPath: 'assets/icons/oil_change.png',
+                            text: 'oil change',
                             textEditingController: textFieldController,
                             isSpeak: isSpeak,
                           ),
@@ -175,8 +175,8 @@ class _NoEmotionsState extends State<NoEmotions> {
                             height: width * 0.1,
                           ),
                           EmojiClick(
-                            emojiPath: 'assets/icons/check_please.jpg',
-                            text: 'check please',
+                            emojiPath: 'assets/icons/no.png',
+                            text: 'no',
                             textEditingController: textFieldController,
                             isSpeak: isSpeak,
                           ),
@@ -193,8 +193,8 @@ class _NoEmotionsState extends State<NoEmotions> {
                         //mainAxisSize: MainAxisSize.max,
                         children: [
                           EmojiClick(
-                            emojiPath: 'assets/icons/cheese_pizza.jpg',
-                            text: 'pizza',
+                            emojiPath: 'assets/icons/car.png',
+                            text: 'car',
                             textEditingController: textFieldController,
                             isSpeak: isSpeak,
                           ),
@@ -202,8 +202,8 @@ class _NoEmotionsState extends State<NoEmotions> {
                             height: width * 0.1,
                           ),
                           EmojiClick(
-                            emojiPath: 'assets/icons/cold.jpg',
-                            text: 'cold',
+                            emojiPath: 'assets/icons/money.png',
+                            text: 'money',
                             textEditingController: textFieldController,
                             isSpeak: isSpeak,
                           ),
@@ -211,8 +211,8 @@ class _NoEmotionsState extends State<NoEmotions> {
                             height: width * 0.1,
                           ),
                           EmojiClick(
-                            emojiPath: 'assets/icons/confused.jpg',
-                            text: 'confused',
+                            emojiPath: 'assets/icons/wheel.png',
+                            text: 'wheel',
                             textEditingController: textFieldController,
                             isSpeak: isSpeak,
                           ),
@@ -220,8 +220,8 @@ class _NoEmotionsState extends State<NoEmotions> {
                             height: width * 0.1,
                           ),
                           EmojiClick(
-                            emojiPath: 'assets/icons/draw.jpg',
-                            text: 'draw',
+                            emojiPath: 'assets/icons/wash.png',
+                            text: 'wash',
                             textEditingController: textFieldController,
                             isSpeak: isSpeak,
                           ),
@@ -229,7 +229,7 @@ class _NoEmotionsState extends State<NoEmotions> {
                             height: width * 0.1,
                           ),
                           EmojiClick(
-                            emojiPath: 'assets/icons/and.jpg',
+                            emojiPath: 'assets/icons/plus.png',
                             text: 'and',
                             textEditingController: textFieldController,
                             isSpeak: isSpeak,
@@ -238,8 +238,8 @@ class _NoEmotionsState extends State<NoEmotions> {
                             height: width * 0.1,
                           ),
                           EmojiClick(
-                            emojiPath: 'assets/icons/french_fries.jpg',
-                            text: 'french fries',
+                            emojiPath: 'assets/icons/please.png',
+                            text: 'please',
                             textEditingController: textFieldController,
                             isSpeak: isSpeak,
                           ),
@@ -247,8 +247,8 @@ class _NoEmotionsState extends State<NoEmotions> {
                             height: width * 0.1,
                           ),
                           EmojiClick(
-                            emojiPath: 'assets/icons/grape_fruit_juice.jpg',
-                            text: 'grape fruit juice',
+                            emojiPath: 'assets/icons/40.png',
+                            text: 'forty',
                             textEditingController: textFieldController,
                             isSpeak: isSpeak,
                           ),
@@ -274,8 +274,8 @@ class _NoEmotionsState extends State<NoEmotions> {
                             height: width * 0.1,
                           ),
                           EmojiClick(
-                            emojiPath: 'assets/icons/i_like_it.jpg',
-                            text: 'i like it',
+                            emojiPath: 'assets/icons/10.png',
+                            text: 'ten',
                             textEditingController: textFieldController,
                             isSpeak: isSpeak,
                           ),
@@ -283,8 +283,8 @@ class _NoEmotionsState extends State<NoEmotions> {
                             height: width * 0.1,
                           ),
                           EmojiClick(
-                            emojiPath: 'assets/icons/i_love_you.jpg',
-                            text: 'i love you',
+                            emojiPath: 'assets/icons/15.png',
+                            text: 'fifteen',
                             textEditingController: textFieldController,
                             isSpeak: isSpeak,
                           ),
@@ -292,9 +292,8 @@ class _NoEmotionsState extends State<NoEmotions> {
                             height: width * 0.1,
                           ),
                           EmojiClick(
-                            emojiPath:
-                                'assets/icons/i_want_a_cup_of_coffee.jpg',
-                            text: 'i want a cup of coffee',
+                            emojiPath: 'assets/icons/20.png',
+                            text: 'twenty',
                             textEditingController: textFieldController,
                             isSpeak: isSpeak,
                           ),
@@ -302,8 +301,8 @@ class _NoEmotionsState extends State<NoEmotions> {
                             height: width * 0.1,
                           ),
                           EmojiClick(
-                            emojiPath: 'assets/icons/i_want.jpg',
-                            text: 'i want',
+                            emojiPath: 'assets/icons/25.png',
+                            text: 'twenty five',
                             textEditingController: textFieldController,
                             isSpeak: isSpeak,
                           ),
@@ -311,8 +310,8 @@ class _NoEmotionsState extends State<NoEmotions> {
                             height: width * 0.1,
                           ),
                           EmojiClick(
-                            emojiPath: 'assets/icons/mom.jpg',
-                            text: 'mom',
+                            emojiPath: 'assets/icons/30.png',
+                            text: 'thirty',
                             textEditingController: textFieldController,
                             isSpeak: isSpeak,
                           ),
@@ -320,8 +319,8 @@ class _NoEmotionsState extends State<NoEmotions> {
                             height: width * 0.1,
                           ),
                           EmojiClick(
-                            emojiPath: 'assets/icons/no.jpg',
-                            text: 'no',
+                            emojiPath: 'assets/icons/35.png',
+                            text: 'thirty five',
                             textEditingController: textFieldController,
                             isSpeak: isSpeak,
                           ),
